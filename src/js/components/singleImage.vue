@@ -1,5 +1,7 @@
 <template>
   <picture class="single-image">
+    <source srcset="images/Background-mob1.webp" type="image/webp" media="(max-width: 800px)" :alt="alt">
+    <source srcset="images/Background-mob1.png" type="image/png" media="(max-width: 800px)" :alt="alt">
     <source :srcset="src" type="image/webp" :alt="alt">
     <source :srcset="fallback" type="image/png" :alt="alt">
     <img :src="fallback" :alt="alt">
