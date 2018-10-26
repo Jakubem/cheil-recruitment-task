@@ -1,5 +1,9 @@
 import Vue from 'vue';
 import '../css/style.scss';
+import 'promise-polyfill'
+
+import HeroCarousel from './components/heroCarousel.vue';
+import CardRow from './components/cardRow.vue';
 
 // check if element with id 'app' exists...
 if (document.getElementById("app")) {
@@ -7,6 +11,8 @@ if (document.getElementById("app")) {
   const app = new Vue({
     el: "#app",
     components: {
+      HeroCarousel,
+      CardRow
     },
   })
 }

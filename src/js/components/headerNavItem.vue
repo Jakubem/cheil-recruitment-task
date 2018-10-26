@@ -1,9 +1,13 @@
 <template>
+  <a class="nav__link" :href="href">{{ content }}</a>
 </template>
 
 <script>
   export default {
-    data: function () {
+    methods: {
+    },
+    props: ['href', 'content'],
+    data() {
       return {
       };
     },
@@ -12,4 +16,21 @@
 
 <style lang="scss" scoped>
   @import '../../css/_var.scss';
+  .nav__link {
+    font: 400  14px 'Source Sans Pro';
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    margin-left: 15px;
+    padding: 0;
+    box-sizing: border-box;
+    color: $c-white;
+    transition: .2s;
+    will-change: border background;
+  }
+
+  .nav__link:hover,
+  .nav__link:focus {
+    color: $c-red;
+    border-bottom: 1px solid $c-red;
+  }
 </style>
