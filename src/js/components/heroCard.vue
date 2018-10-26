@@ -7,6 +7,8 @@
       <h2 class="hero__headline">
         {{ headline }}
       </h2>
+      <line-separator>
+      </line-separator>
       <p class="hero__copy">
         {{ heroCopy }}
       </p>
@@ -30,10 +32,12 @@
 <script>
   import SingleImage from './singleImage.vue';
   import ButtonBase from './buttonBase.vue';
+  import LineSeparator from './lineSeparator.vue';
   export default {
     components: {
       SingleImage,
-      ButtonBase
+      ButtonBase,
+      LineSeparator
     },
     props: ['heroIntro', 'headline', 'heroCopy', 'src', 'fallback'],
     data: function () {
@@ -48,10 +52,12 @@
 
   .hero__content {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
   }
 
   .hero__intro {    
@@ -71,5 +77,7 @@
     font: 400 14px 'Open Sans';
     color: $c-white;
     margin: 0 15px 15px 15px;
+    max-width: 600px;
+    text-align: center;
   }
 </style>

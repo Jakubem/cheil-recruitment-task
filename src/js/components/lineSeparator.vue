@@ -32,7 +32,7 @@
       bottom: 5px;
       height: 1px;
       width: 79px;
-      background: $c-gray--warm;
+      background: $c-gray__warm;
       margin-right: 22px;
     }
     &::after {
@@ -43,7 +43,7 @@
       bottom: 5px;
       height: 1px;
       width: 79px;
-      background: $c-gray--warm;
+      background: $c-gray__warm;
       margin-left: 22px;
     }
   }
