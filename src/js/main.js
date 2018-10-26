@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import '../css/style.scss';
+import './picturefill'
 import 'promise-polyfill'
 
 import HeroCarousel from './components/heroCarousel.vue';
