@@ -71,7 +71,7 @@
 
     },
     props: ['active'],
-    data() {
+    data: function() {
       return {
 
       };

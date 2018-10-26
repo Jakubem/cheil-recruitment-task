@@ -7,7 +7,7 @@
     methods: {
     },
     props: ['href', 'content'],
-    data() {
+    data: function() {
       return {
       };
     },
