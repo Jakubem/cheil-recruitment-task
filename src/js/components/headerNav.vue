@@ -80,10 +80,15 @@
 </script>
 
 <style lang="scss" scoped>
-  .nav__list {
-    display: flex;
-  }
   .nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    z-index: 1;
+  }
+  .nav__list {
     display: flex;
   }
 </style>
