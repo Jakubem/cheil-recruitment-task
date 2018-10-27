@@ -5,11 +5,11 @@
       :per-page="1" 
       :autoplay="true"
       :easing="'linear'"
-      :paginationEnabled="true"
       :autoplayTimeout="6000" 
       :loop="true"
       :paginationActiveColor="'#adadad'"
-      :paginationColor="'transparent'">
+      :paginationColor="'transparent'"
+      :paginationPadding="15">
       <slide>
         <hero-card 
           :heroIntro="'Our Clients Are Our First Priority'"

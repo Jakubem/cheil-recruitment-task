@@ -8,10 +8,13 @@ body {
 }
 
 
-// overwrite VueCarousel styles
+// overwrite VueCarousel styles to comply with the design
 .VueCarousel-pagination {
-  transform: translateY(-180px);
+  position: relative;
+  bottom: 230px;
 }
 .VueCarousel-dot-button {
   border: 2px solid #adadad !important;
+  width: 16px !important;
+  height: 16px !important;
 }
