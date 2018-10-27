@@ -19,7 +19,8 @@
     </div>
     <single-image
       :src="src"
-      :fallback="fallback">
+      :fallback="fallback"
+      :mobileSrc="mobileSrc">
     </single-image>
     <single-image
       class="anchor-icon"
@@ -39,7 +40,7 @@
       ButtonBase,
       LineSeparator
     },
-    props: ['heroIntro', 'headline', 'heroCopy', 'src', 'fallback'],
+    props: ['heroIntro', 'headline', 'heroCopy', 'src', 'fallback', 'mobileSrc'],
     data: function () {
       return {
       };
@@ -53,9 +54,9 @@
   .hero__content {
     width: 100%;
     height: 100%;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     position: absolute;
   }
@@ -69,15 +70,16 @@
   .hero__headline {
     font: bold 72px 'Open Sans';
     color: $c-white;
-    text-transform: uppercase;
     margin: 0 15px 15px 15px;
+    text-transform: uppercase;
+    text-align: center;
   }
 
   .hero__copy {
     font: 400 14px 'Open Sans';
     color: $c-white;
-    margin: 0 15px 15px 15px;
     max-width: 600px;
+    margin: 0 15px 15px 15px;
     text-align: center;
   }
 </style>

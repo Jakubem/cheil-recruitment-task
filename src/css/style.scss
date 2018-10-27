@@ -4,4 +4,14 @@
 html,
 body {
   background-color: $c-white;
+  scroll-behavior: smooth;
+}
+
+
+// overwrite VueCarousel styles
+.VueCarousel-pagination {
+  transform: translateY(-180px);
+}
+.VueCarousel-dot-button {
+  border: 2px solid #adadad !important;
 }
