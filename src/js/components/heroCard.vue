@@ -14,7 +14,7 @@
       </p>
       <div class="button-group">
         <button-base :content="'get started now'"></button-base>
-        <button-base :content="'learn more'"></button-base>
+        <button-base class="button--mobile-hidden" :content="'learn more'"></button-base>
       </div>
     </div>
     <single-image

@@ -39,5 +39,12 @@
       background-color: $c-red;
     }
   }
+  
+  @media screen and (max-width: 700px) {
+    .button--mobile-hidden {
+      display: none;
+    }
+  }
+
 
 </style>
