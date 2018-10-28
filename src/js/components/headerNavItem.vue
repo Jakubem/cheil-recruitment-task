@@ -20,8 +20,8 @@
     font: 400  14px 'Source Sans Pro';
     text-transform: uppercase;
     letter-spacing: 0.01em;
-    margin-left: 15px;
-    padding: 0;
+    margin-left: 56px;
+    padding: 0 0 15px 0;
     box-sizing: border-box;
     color: $c-white;
     transition: .2s;
@@ -29,7 +29,8 @@
   }
 
   .nav__link:hover,
-  .nav__link:focus {
+  .nav__link:focus,
+  .nav__link--state-active {
     color: $c-red;
     border-bottom: 1px solid $c-red;
   }

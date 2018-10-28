@@ -10,8 +10,9 @@
       </h1>
     </a>
     <ul class="nav__list">
-      <li class="nav__item nav__item--state-active">
-        <header-nav-item 
+      <li class="nav__item">
+        <header-nav-item
+          class="nav__link--state-active"
           :content="'home'"
           :href="'./#home'">
         </header-nav-item>
@@ -82,10 +83,14 @@
 <style lang="scss" scoped>
   .nav {
     display: flex;
-    position: fixed;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
-    width: 1000px;
+    width: 100%;
+    max-width: 1170px;
     z-index: 1;
   }
   .nav__list {
