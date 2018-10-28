@@ -8,9 +8,11 @@
 ### Folder structure:
 > `src` - all source files <br>
 > `src/css` - scss styles <br>
+> `src/css/style.scss` - global styles <br>
 > `src/js` - vue app and main.js entry point <br>
 > `src/js/components` - reusable vue components <br>
 > `src/images` - static png and webp images <br>
+> `views` - template for html-webpack-plugin <br>
 > `dist` - compiled production bundle <br>
 > `webpack` - whole webpack config <br>
 
