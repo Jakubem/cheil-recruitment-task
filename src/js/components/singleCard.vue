@@ -107,4 +107,13 @@
     width: 250px;
     margin: 0;
   }
+
+  @media screen and (max-width: 700px) {
+    .single-card__copy {
+      font-size: 14px;
+    }
+    .single-card {
+      margin-bottom: 30px;
+    }
+  }
 </style>
