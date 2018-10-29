@@ -100,6 +100,11 @@
     .hero__copy {
       display: none;
     }
+
+    .hero__headline {
+      font-size: 50px;
+      line-height: 54px;
+    }
   }
 
 </style>

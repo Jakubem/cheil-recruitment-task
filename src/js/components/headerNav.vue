@@ -127,16 +127,17 @@
       width: 30px;
     }
     &::after {
-      top: -8px;
+      top: -11px;
     }
     &::before {
-      bottom: -8px;
+      bottom: -11px;
     }
   }
 
   // open menu (x icon)
   .hamburger-icon--state-open {
     background-color: transparent;
+    // left: 0;
     &::after {
       top: 0;
       transform: rotate(-45deg);
@@ -178,6 +179,8 @@
     }
     .nav__list--state-open {
       display: block;
+      position: absolute;
+      left: 0;
     }
   }
 
