@@ -5,12 +5,12 @@
       <button 
         class="carousel-navigation__button carousel-navigation__button--prev"
         @click.prevent="prevSlide">
-        ◀
+        <img class="carousel-navigation__arrow" src="images/angle-left.svg" alt="">
       </button>
       <button 
         class="carousel-navigation__button carousel-navigation__button--next"
         @click.prevent="nextSlide">
-        ▶
+        <img class="carousel-navigation__arrow" src="images/angle-right.svg" alt="">
       </button>
     </div>
     <carousel 
@@ -79,10 +79,10 @@
     },
     methods: {
       // methods for custom carousel navigation
-      prevSlide() {
+      prevSlide: function() {
         this.$refs.carousel.goToPage(this.$refs.carousel.getPreviousPage());
       },
-      nextSlide() {
+      nextSlide: function() {
         this.$refs.carousel.goToPage(this.$refs.carousel.getNextPage());
       },
     },
@@ -105,11 +105,15 @@
     z-index: 3;
   }
   .carousel-navigation__button {
-    width: 45px;
+    width: 40px;
+    height: 40px;
     font: 20px 'Source Sans Pro';
-    height: 45px;
     color: $c-white;
     background-color: $c-red;
     border-radius: $border-radius;
+  }
+  .carousel-navigation__arrow {
+    height: 40px;
+    fill: $c-white;
   }
 </style>
