@@ -1,7 +1,20 @@
 <template>
   <header>
     <header-nav></header-nav>
+    <div class="carousel-navigation">
+      <button 
+        class="carousel-navigation__button carousel-navigation__button--prev"
+        @click.prevent="prevSlide">
+        ◀
+      </button>
+      <button 
+        class="carousel-navigation__button carousel-navigation__button--next"
+        @click.prevent="nextSlide">
+        ▶
+      </button>
+    </div>
     <carousel 
+      ref="carousel" 
       :per-page="1" 
       :autoplay="true"
       :easing="'linear'"
@@ -65,7 +78,13 @@
 
     },
     methods: {
-
+      // methods for custom carousel navigation
+      prevSlide() {
+        this.$refs.carousel.goToPage(this.$refs.carousel.getPreviousPage());
+      },
+      nextSlide() {
+        this.$refs.carousel.goToPage(this.$refs.carousel.getNextPage());
+      },
     },
     data: function () {
       return {
@@ -75,4 +94,22 @@
 </script>
 
 <style lang="scss" scoped>
+  @import '../../css/_var.scss';
+  .carousel-navigation {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 20px;
+    right: 20px;
+    top: 400px;
+    z-index: 3;
+  }
+  .carousel-navigation__button {
+    width: 45px;
+    font: 20px 'Source Sans Pro';
+    height: 45px;
+    color: $c-white;
+    background-color: $c-red;
+    border-radius: $border-radius;
+  }
 </style>
