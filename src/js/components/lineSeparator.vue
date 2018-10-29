@@ -47,4 +47,10 @@
       margin-left: 22px;
     }
   }
+
+  @media screen and (max-width: 1000px) {
+    .line-separator {
+      margin: 15px auto;
+    }
+  }
 </style>

@@ -34,6 +34,11 @@
     }
   }
 
+  @media screen and (max-width: 1000px) {
+    .nav__link {
+      margin-left: 30px;
+    }
+  }
 
   @media screen and (max-width: 700px) {
     .nav__link {

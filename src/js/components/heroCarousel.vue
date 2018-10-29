@@ -114,6 +114,24 @@
   }
   .carousel-navigation__arrow {
     height: 40px;
-    fill: $c-white;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .carousel-navigation {
+      top: 200px;
+    }
+    .carousel-navigation__button {
+      width: 25px;
+      height: 25px;
+    }
+    .carousel-navigation__arrow {
+      height: 25px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .carousel-navigation {
+      display: none;
+    }
   }
 </style>

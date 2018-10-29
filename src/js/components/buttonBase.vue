@@ -40,7 +40,7 @@
     }
   }
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
     .button--mobile-hidden {
       display: none;
     }

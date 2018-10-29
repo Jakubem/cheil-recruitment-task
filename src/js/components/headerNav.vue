@@ -152,6 +152,7 @@
     }
   }
 
+
   @media screen and (max-width: 700px) {
     .nav__logo-link {
       margin: 19px auto;

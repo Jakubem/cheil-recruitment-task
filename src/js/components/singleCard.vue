@@ -109,9 +109,20 @@
     margin: 0;
   }
 
-  @media screen and (max-width: 700px) {
+
+  @media screen and (max-width: 1000px) {
+    .single-card {
+      margin: 5px 5px 90px 5px;
+    }
+    .single-card__copy {
+      width: 180px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
     .single-card__copy {
       font-size: 14px;
+      width: 250px;
     }
     .single-card {
       margin-bottom: 30px;
