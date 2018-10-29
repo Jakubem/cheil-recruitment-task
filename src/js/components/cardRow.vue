@@ -6,6 +6,7 @@
           :copy="'Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.'"
           :headline="'sleek design'"
           :src="'images/1.webp'"
+          :alt="''"
           :fallback="'images/1.png'">
         </single-card>
       </li>
@@ -14,6 +15,7 @@
           :copy="'Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.'"
           :headline="'clean code'"
           :src="'images/2.webp'"
+          :alt="''"
           :fallback="'images/2.png'">
         </single-card>
       </li>
@@ -22,6 +24,7 @@
           :copy="'Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.'"
           :headline="'creative ideas'"
           :src="'images/3.webp'"
+          :alt="''"
           :fallback="'images/3.png'">
         </single-card>
       </li>
@@ -30,6 +33,7 @@
           :copy="'Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.'"
           :headline="'free support'"
           :src="'images/4.webp'"
+          :alt="''"
           :fallback="'images/4.png'">
         </single-card>
       </li>

@@ -17,6 +17,7 @@
           :heroCopy="'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'"
           :heroCopyMobile="'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'"
           :src="'images/Background1.webp'"
+          :alt="'background with hot air balloons flying over the hill'"
           :fallback="'images/Background1.png'"
           :mobileSrc="'images/Background-mob1.png'">
         </hero-card>
@@ -28,6 +29,7 @@
           :heroCopy="'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'" 
           :heroCopyMobile="'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'"
           :src="'images/Background2.png'"
+          :alt="'background with view on mountains'"
           :fallback="'images/Background2.png'"
           :mobileSrc="'images/Background-mob2.png'">
         </hero-card>
@@ -39,6 +41,7 @@
           :heroCopy="'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'" 
           :heroCopyMobile="'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'"
           :src="'images/Background3.png'"
+          :alt="'background with view on forest'"
           :fallback="'images/Background3.png'"
           :mobileSrc="'images/Background-mob3.png'">
         </hero-card>

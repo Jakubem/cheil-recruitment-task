@@ -5,6 +5,7 @@
         <single-image
           class="logo-img"
           :src="'images/logo.webp'"
+          :alt="'Bino logo'"
           :fallback="'images/logo.png'">
         </single-image>
       </h1>
@@ -16,6 +17,7 @@
     </button>
     <ul 
       class="nav__list"
+      :aria-hidden="!open"
       :class="{'nav__list--state-open': open}">
       <li class="nav__item">
         <header-nav-item

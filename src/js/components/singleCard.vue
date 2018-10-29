@@ -4,6 +4,7 @@
       <single-image
         class="card-icon"
         :src="src"
+        :alt="alt"
         :fallback="fallback">
       </single-image>
     </div>
@@ -26,7 +27,7 @@
       return {
       };
     },
-    props: ['src', 'fallback', 'headline', 'copy'],
+    props: ['src', 'fallback', 'headline', 'alt', 'copy'],
     methods: {
       // Optional methods goes here. You should then call them, passing method name as prop.
     },

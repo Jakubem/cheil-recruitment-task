@@ -23,11 +23,13 @@
     <single-image
       :src="src"
       :fallback="fallback"
+      :alt="alt"
       :mobileSrc="mobileSrc">
     </single-image>
     <single-image
       class="anchor-icon"
       :src="'images/anchor-icon.webp'"
+      :alt="' '"
       :fallback="'images/anchor-icon.png'">
     </single-image>
   </header>
@@ -43,7 +45,7 @@
       ButtonBase,
       LineSeparator
     },
-    props: ['heroIntro', 'headline', 'heroCopy', 'heroCopyMobile', 'src', 'fallback', 'mobileSrc'],
+    props: ['heroIntro', 'headline', 'heroCopy', 'heroCopyMobile', 'src', 'alt', 'fallback', 'mobileSrc'],
     data: function () {
       return {
       };
