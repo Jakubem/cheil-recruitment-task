@@ -60,6 +60,20 @@
     left: 0;
     right: 0;
     margin: auto;
+    animation: anchor .3s ease-in-out 1s 1 running;
+    // animation-iteration-count: .3s ease-in-out 0 1 0;
+  }
+
+  @keyframes anchor {
+    0% {
+      transform: scale(1)
+    }
+    50% {
+      transform: scale(1.5)
+    } 
+    100% {
+      transform: scale(1)
+    } 
   }
 
   .logo-img img,

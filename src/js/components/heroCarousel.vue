@@ -22,7 +22,7 @@
       :loop="true"
       :paginationActiveColor="'#adadad'"
       :paginationColor="'transparent'"
-      :paginationPadding="15">
+      :paginationPadding="13">
       <slide>
         <hero-card 
           :heroIntro="'Our Clients Are Our First Priority'"
@@ -115,6 +115,11 @@
   .carousel-navigation__arrow {
     height: 40px;
   }
+  @media screen and (max-width: 1200px) {
+      .carousel-navigation {
+        top: 300px;
+      }
+    }
 
   @media screen and (max-width: 1000px) {
     .carousel-navigation {
