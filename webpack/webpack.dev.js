@@ -102,6 +102,10 @@ module.exports = {
         from: 'src/images',
         to: 'images'
       },
+      {
+        from: 'src/js/sw.js',
+        to: ''
+      },
     ]),
     new MiniCssExtractPlugin({
       filename: "bundle.css",
