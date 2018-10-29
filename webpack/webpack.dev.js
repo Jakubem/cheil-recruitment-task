@@ -97,7 +97,8 @@ module.exports = {
       template: './src/views/index.html',
       filename: './index.html'
     }),
-    new CopyWebpackPlugin([{
+    new CopyWebpackPlugin([
+      {
         from: 'src/images',
         to: 'images'
       },

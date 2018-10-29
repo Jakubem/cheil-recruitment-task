@@ -1,6 +1,13 @@
 {
- "name": "App",
- "icons": [
+  "name": "Cheil recruitment task",
+  "short_name": "Bino",
+  "theme_color": "#e74c3c",
+  "background_color": "#e74c3c",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [
   {
    "src": "\/android-icon-36x36.png",
    "sizes": "36x36",
