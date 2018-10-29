@@ -1,3 +1,5 @@
+// This is top level component. It contains whole hero section with carousel and navbar.
+
 <template>
   <header>
     <header-nav></header-nav>

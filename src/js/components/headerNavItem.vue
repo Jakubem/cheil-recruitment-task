@@ -1,3 +1,5 @@
+// This is single navbar item.
+
 <template>
   <a class="nav__link" :href="href">{{ content }}</a>
 </template>

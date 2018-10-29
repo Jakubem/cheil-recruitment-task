@@ -1,3 +1,5 @@
+// This is wrapper for single card components.
+
 <template>
   <section class="card-row">
     <ul class="card-row__list">

@@ -1,3 +1,5 @@
+// this component is a base button
+
 <template>
   <button class="button">{{ content }}</button>
 </template>

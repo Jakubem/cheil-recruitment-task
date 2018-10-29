@@ -1,3 +1,5 @@
+// this component is just a picture tag. You can pass multiple image sources, and alt text.
+
 <template>
   <picture class="single-image">
     <source 
@@ -61,9 +63,9 @@
     right: 0;
     margin: auto;
     animation: anchor .3s ease-in-out 1s 1 running;
-    // animation-iteration-count: .3s ease-in-out 0 1 0;
   }
 
+// animation for anchor icon
   @keyframes anchor {
     0% {
       transform: scale(1)

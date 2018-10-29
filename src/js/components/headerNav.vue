@@ -1,3 +1,5 @@
+// This is whole navbar component. It is using headerNavItem components.
+
 <template>
   <nav class="nav">
     <a href="./#" class="nav__logo-link">

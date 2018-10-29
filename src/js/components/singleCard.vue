@@ -1,3 +1,5 @@
+// This is single card, which will be used in cardRow component.
+
 <template>
   <div class="single-card">
     <div class="single-card__image">

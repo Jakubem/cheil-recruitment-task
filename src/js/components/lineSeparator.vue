@@ -1,3 +1,5 @@
+// This is decorative line separator. It can be used anywhere.
+
 <template>
   <span class="line-separator">
   </span>

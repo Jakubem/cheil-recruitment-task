@@ -1,3 +1,5 @@
+// This is single hero carousel slide.
+
 <template>
   <header>
     <div class="hero__content">
