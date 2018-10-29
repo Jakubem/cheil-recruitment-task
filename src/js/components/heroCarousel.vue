@@ -117,9 +117,16 @@
   .carousel-navigation__arrow {
     height: 40px;
   }
+
+  @media screen and (max-width: 1400px) {
+    .carousel-navigation {
+      top: 300px;
+    }
+  }
+
   @media screen and (max-width: 1200px) {
       .carousel-navigation {
-        top: 300px;
+        top: 250px;
       }
     }
 

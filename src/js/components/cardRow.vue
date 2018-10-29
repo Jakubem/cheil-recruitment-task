@@ -69,7 +69,7 @@
     justify-content: center;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 850px) {
     .card-row__list {
       flex-direction: column;
     }

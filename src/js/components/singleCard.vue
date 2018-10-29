@@ -112,16 +112,16 @@
   }
 
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1155px) {
     .single-card {
       margin: 5px 5px 90px 5px;
     }
     .single-card__copy {
-      width: 180px;
+      width: 200px;
     }
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 850px) {
     .single-card__copy {
       font-size: 14px;
       width: 250px;
