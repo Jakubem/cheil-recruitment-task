@@ -111,7 +111,7 @@
     display: none;
     position: absolute;
     right: 30px;
-    top: 48px;
+    top: 51px;
     width: 30px;
     height: 3px;
     background: $c-gray__light;
