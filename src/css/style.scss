@@ -7,6 +7,12 @@ body {
   scroll-behavior: smooth;
 }
 
+.noscript {
+  font: bold 30px 'Open Sans';
+  text-align: center;
+  margin-top: 100px;
+  display: block;
+}
 
 // overwrite VueCarousel styles to comply with the design
 .VueCarousel-pagination {
