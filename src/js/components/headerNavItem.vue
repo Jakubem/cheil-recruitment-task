@@ -26,12 +26,27 @@
     color: $c-white;
     transition: .2s;
     will-change: border background;
+    &:hover,
+    &:focus,
+    &--state-active {
+      color: $c-red;
+      border-bottom: 1px solid $c-red;
+    }
   }
 
-  .nav__link:hover,
-  .nav__link:focus,
-  .nav__link--state-active {
-    color: $c-red;
-    border-bottom: 1px solid $c-red;
+
+  @media screen and (max-width: 700px) {
+    .nav__link {
+      font: 400  26px 'Open Sans';
+      color: $c-gray__text;
+      width: 100%;
+      padding: 0;
+      &:hover,
+      &:focus,
+      &--state-active {
+        border-bottom: none;
+      }
+    }
   }
+
 </style>
