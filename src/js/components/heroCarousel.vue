@@ -15,6 +15,7 @@
           :heroIntro="'Our Clients Are Our First Priority'"
           :headline="'Welcome to Dino'"
           :heroCopy="'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'"
+          :heroCopyMobile="'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'"
           :src="'images/Background1.webp'"
           :fallback="'images/Background1.png'"
           :mobileSrc="'images/Background-mob1.png'">
@@ -25,6 +26,7 @@
           :heroIntro="'Our Clients Are Our First Priority'"
           :headline="'Welcome to Bino'" 
           :heroCopy="'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'" 
+          :heroCopyMobile="'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'"
           :src="'images/Background2.png'"
           :fallback="'images/Background2.png'"
           :mobileSrc="'images/Background-mob2.png'">
@@ -35,6 +37,7 @@
           :heroIntro="'Our Clients Are Our First Priority'"
           :headline="'Welcome to Cino'" 
           :heroCopy="'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'" 
+          :heroCopyMobile="'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'"
           :src="'images/Background3.png'"
           :fallback="'images/Background3.png'"
           :mobileSrc="'images/Background-mob3.png'">
@@ -68,5 +71,5 @@
   }
 </script>
 
-<style>
+<style lang="scss" scoped>
 </style>

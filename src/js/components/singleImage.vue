@@ -1,10 +1,28 @@
 <template>
   <picture class="single-image">
-    <source srcset="images/Background-mob1.webp" type="image/webp" media="(max-width: 800px)" :alt="alt">
-    <source srcset="images/Background-mob1.png" type="image/png" media="(max-width: 800px)" :alt="alt">
-    <source :srcset="src" type="image/webp" :alt="alt">
-    <source :srcset="fallback" type="image/png" :alt="alt">
-    <img :src="fallback" :alt="alt">
+    <source 
+      v-if="mobileSrc" 
+      :srcset="mobileSrc" 
+      type="image/webp" 
+      media="(max-width: 700px)" 
+      :alt="alt">
+    <source 
+      v-if="mobileSrc" 
+      :srcset="mobileSrc" 
+      type="image/png" 
+      media="(max-width: 700px)" 
+      :alt="alt">
+    <source 
+      :srcset="src" 
+      type="image/webp" 
+      :alt="alt">
+    <source 
+      :srcset="fallback" 
+      type="image/png" 
+      :alt="alt">
+    <img 
+      :src="fallback" 
+      :alt="alt">
   </picture>
 </template>
 <script>
@@ -16,7 +34,7 @@
     methods: {
 
     },
-    props: ['src', 'fallback', 'alt'],
+    props: ['src', 'fallback', 'alt', 'mobileSrc'],
     data: function() {
       return {
       };
@@ -37,13 +55,12 @@
   .anchor-icon img,
   .anchor-icon source {
     width: 75px;
+    position: relative;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
-
-  // .card-icon img,
-  // .card-icon source {
-  //   width: auto;
-  //   max-height: 20px;
-  // }
 
   .logo-img img,
   .logo-img source {
