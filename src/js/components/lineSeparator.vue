@@ -53,4 +53,19 @@
       margin: 15px auto;
     }
   }
+  @media screen and (max-width: 800px) {
+    .line-separator {
+      margin: 5px auto;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .line-separator {
+      margin: 25px auto;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .line-separator {
+      margin: 5px auto;
+    }
+  }
 </style>

@@ -36,7 +36,7 @@
 
   @media screen and (max-width: 1000px) {
     .nav__link {
-      margin-left: 30px;
+      margin-left: 25px;
     }
   }
 

@@ -124,11 +124,11 @@
 
   @media screen and (max-width: 1000px) {
     .hero__content {
-      margin-top: 90px;
+      margin-top: 80px;
     }
     .hero__intro {
       font-size: 18px;
-      margin: 0 20px;
+      margin: 0 15px;
     }
 
     .hero__headline {
@@ -137,7 +137,7 @@
     }
 
     .hero__copy {
-      margin: 15px 20px;
+      margin: 15px;
       font-size: 12px;
       line-height: 18px;
     }
@@ -159,9 +159,15 @@
     }
   }
 
+  @media screen and (max-width: 750px) {
+    .hero__copy {
+      margin-top: 10px;
+    }
+  }
+
   @media screen and (max-width: 700px) {
     .hero__content {
-      margin-top: 200px;
+      margin-top: 190px;
     }
     .hero__intro {
       font-size: 24px;
@@ -171,7 +177,6 @@
       margin-bottom: 15px;
     }
     .hero__copy {
-      margin-top: 15px;
       margin-bottom: 35px;
     }
   }
@@ -180,11 +185,18 @@
     .hero__content {
       margin-top: 130px;
     }
+  }
+
+  @media screen and (max-width: 350px) {
+    .hero__content {
+      margin-top: 120px;
+    }
     .hero__intro {
-      margin-bottom: 15px;
+      margin-bottom: 5px;
     }
     .hero__headline {
       margin-bottom: 10px;
+      font-size: 40px;
     }
     .hero__copy {
       margin-top: 10px;
